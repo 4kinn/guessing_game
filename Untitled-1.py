@@ -11,9 +11,9 @@ def start():
 def game_word():
     words=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     twrnd=random.choice(words)
-    print("type hint for hint")
-    lifee=input("ow many lives do you want: ")
     lifee_int=int(lifee)
+    print("Type a hint for a hint but 1 life will be lost")
+
 
     while 2>1:
         selec=input("enter your guess: ")
